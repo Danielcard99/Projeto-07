@@ -1,0 +1,58 @@
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.sect1 {
+  position: relative;
+  min-height: 400px;
+}
+
+.form-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 15px 2%;
+  width: 100%;
+  max-width: 700px;
+}
+
+.custom-title {
+  position: relative;
+}
+
+.custom-title h2 {
+  font-size: 26px;
+  color: #777;
+  background: white;
+  padding-right: 10px;
+  display: inline-block;
+  z-index: 2;
+  position: relative;
+}
+
+.custom-title > div {
+  width: 100%;
+  position: absolute;
+  height: 2px;
+  top: 50px;
+  z-index: 1;
+  background: #999;
+  left: 0;
+}
+
+.offset-equipe {
+  position: relative;
+  top: 86px;
+}
+
+
+@media screen and (max-width:768px) {
+  .offset-equipe{
+    top: 0;
+  }
+}
